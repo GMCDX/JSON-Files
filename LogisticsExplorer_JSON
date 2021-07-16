@@ -1,0 +1,135 @@
+{
+   "data":{
+      "shipment":[
+         {
+            "shipmentId":"SR-107733",
+            "transportationMode":"ocean",
+            "incoterms":null,
+            "currency":"USD",
+            "cityFrom":{
+               "id":265,
+               "name":"Kiev, Ukraine, 02000",
+               "code":"ChIJBUVa4U7P1EAR_kYBF9IxSXY",
+               "countryCode":"UA",
+               "lat":50.4501,
+               "lng":30.5234
+            },
+            "cityTo":{
+               "id":625,
+               "name":"Jiaxing",
+               "code":"ChIJ91gIY1RjTTQRc_HMRvgjh5Q",
+               "countryCode":"CN",
+               "lat":29.868336,
+               "lng":121.543991
+            },
+            "portFrom":{
+               "id":409,
+               "name":"Chornomorsk",
+               "code":"UAILK",
+               "countryCode":"UA",
+               "lat":46.337529876646,
+               "lng":30.677839053341877
+            },
+            "portTo":{
+               "id":674,
+               "name":"Ningbo",
+               "code":"CNNGB",
+               "countryCode":"CN",
+               "lat":29.87187673128037,
+               "lng":121.55940382870983
+            },
+            "oceanFreight":[
+               {
+                  "shippingLine":"HLCU",
+                  "logo":"https:\/\/www.searates.com\/design\/images\/freight\/sealine_cort\/7.jpg",
+                  "containerCode":"ST20",
+                  "containerType":"20 Standard",
+                  "quantity":1,
+                  "validTo":"2021-01-31",
+                  "linerTerms":null,
+                  "price":914,
+                  "distance":"15036.46 km",
+                  "transitTime":"31 days",
+                  "transportFrom":null,
+                  "transportTo":null,
+                  "portFeesFrom":[
+                     {
+                        "abbr":"ADE",
+                        "title":"Agency Documentation Fee Exports",
+                        "price":50,
+                        "perLot":true
+                     },
+                     {
+                        "abbr":"B\/L",
+                        "title":"Bill of lading fee",
+                        "price":30,
+                        "perLot":true
+                     },
+                     {
+                        "abbr":"EXP",
+                        "title":"Export Service",
+                        "price":120,
+                        "perLot":false
+                     },
+                     {
+                        "abbr":"OTHC",
+                        "title":"Original Terminal Handling Charge",
+                        "price":313,
+                        "perLot":false
+                     }
+                  ],
+                  "portFeesTo":[
+                     {
+                        "abbr":"DDF",
+                        "title":"Documentation Fee - Destination",
+                        "price":70,
+                        "perLot":true
+                     },
+                     {
+                        "abbr":"DTHC",
+                        "title":"Destination Terminal Handling Charge",
+                        "price":375,
+                        "perLot":false
+                     }
+                  ],
+                  "truckFrom":{
+                     "price":653,
+                     "distance":"525.81 km",
+                     "transitTime":"1 day",
+                     "interpolation":false
+                  },
+                  "truckTo":{
+                     "price":150,
+                     "distance":"1.49 km",
+                     "transitTime":"1 day",
+                     "interpolation":true
+                  },
+                  "railFrom":{
+                     "price":500,
+                     "distance":"473.13 km",
+                     "transitTime":"1 day",
+                     "interpolation":false
+                  },
+                  "railTo":{
+                     "price":150,
+                     "distance":"1.49 km",
+                     "transitTime":"1 day",
+                     "interpolation":false
+                  },
+                  "dryFrom":null,
+                  "dryTo":null
+               }
+            ]
+         }
+      ],
+      "default":{
+         "services":[
+            "truck [export]",
+            "fees [export]",
+            "truck [import]",
+            "fees [import]",
+            "ocean"
+         ]
+      }
+   }
+}
